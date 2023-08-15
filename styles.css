@@ -1,0 +1,55 @@
+body {
+    color: white; 
+    margin: 0;
+    font-family: 'Bangers', cursive;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    text-align: center;   
+}
+
+#hero {
+    margin: 0;
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGNjNnBhc3Q4bW5mM2JlaDhoeGsweGRwdDQzdGNiaXZ3Mzd2YTA5aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/WQNiSTYU9IlaErv55B/giphy-downsized-large.gif");
+    background-size: cover;
+    background-position: center; /* center the background horizontally */
+}
+
+#main-logo {
+    width: 200px;
+    margin-top: 40px;
+    text-align: left;
+}
+
+#hero-info {
+    padding: 200px 0 300px 0;
+}
+
+#title {
+    font-size: 50px;
+    text-shadow: -5px 5px 4px black;
+}
+
+.underline { /* utility property */
+    color: rgb(253, 151, 55);
+    font-size: 60px;
+}
+
+.btn {
+    font-size: 18px;
+    padding: 8px 15px;
+    cursor: pointer;
+    background: rgb(253, 151, 55);
+    border: none;
+    font-family: inherit;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4); /* Increased blur radius and darker color */
+
+}
+
+.btn:hover {
+    background: rgb(250, 121, 0);
+
+}
+
+#footer {
+    color: black;
+}
